@@ -16,6 +16,8 @@ public class MyStepdefs {
 
     }
 
+
+    @Given("^I eat (\\d+) cukes")
     public void eat_cuke(int eatead){
         cukes.eat(eatead);
     }
